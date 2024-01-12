@@ -22,7 +22,7 @@ export default NextAuth({
 
         Credentials({
             id: 'credentials',
-            name: 'credentials',
+            name: 'Credentials',
             credentials: {
                 email: {
                     label: 'Email',
@@ -61,7 +61,7 @@ export default NextAuth({
     pages: {
         signIn: '/auth',
     },
-    debug: process.env.NODE_ENV === 'development',
+    debug: process.env.NODE_ENV !== 'development',
     adapter: PrismaAdapter(prismadb),
     session: {
         strategy: 'jwt',
