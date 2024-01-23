@@ -1,40 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Netflix Clone
+Netflix Clone is a project developed using Next.js, Typescript, Tailwind CSS, Prisma, and MongoDB. This project replicates the popular Netflix interface, showcasing the use of various technologies for building a modern web application.
+
+## Technologies Used
+* **Next.js:** Utilized for server-side rendering, ensuring faster page loads and improved SEO.
+* **Typescript:** Implemented for static typing, enhancing code reliability and maintainability.
+* **Tailwind CSS:** Employed for efficient and responsive UI development, enabling a clean and visually appealing design.
+* **Prisma:** Used as the data abstraction layer to facilitate seamless communication with MongoDB.
+* **MongoDB:** Chosen as the database for storing and retrieving data in a scalable manner.
+* **NextAuth:** Integrated for secure Google and GitHub login, along with additional features such as favorite lists and multiple user profiles.
+
+## Features
+* **Component-based Architecture:** Developed using React.js to leverage its component-based architecture for a dynamic UI.
+* **Server-side Rendering:** Implemented with Next.js to ensure faster page loads and improved SEO.
+* **Responsive UI:** Designed using Tailwind CSS for an efficient and responsive user interface.
+* **Data Management:** Utilized Prisma for smooth communication with MongoDB, providing a reliable data abstraction layer.
+* **Authentication:** Integrated NextAuth for secure Google and GitHub login, enhancing user experience and security.
+* **Additional Features:** Implemented features like favorite lists and multiple user profiles to enhance user engagement.
 
 ## Getting Started
+To run the project locally, follow these steps:
 
-First, run the development server:
-
+1. **Clone the repository:**
+```bash
+git clone https://github.com/your-username/netflix-clone.git
+```
+2. **Install dependencies:**
+```bash
+npm install
+```
+3. **Configure environment variables:** copy `.env.example` to `.env` and fill relevant fields
+4. **Run the development server:**
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
